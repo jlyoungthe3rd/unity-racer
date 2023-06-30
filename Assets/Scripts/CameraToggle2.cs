@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CameraToggle : MonoBehaviour
+public class CameraToggle2 : MonoBehaviour
 {
     public GameObject cam1;
     public GameObject cam2;
@@ -14,7 +14,7 @@ public class CameraToggle : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Switch1"))
+        if (Input.GetButtonDown("Enter"))
         {
             SwitchCamera();
         }
